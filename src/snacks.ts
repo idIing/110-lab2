@@ -1,10 +1,10 @@
 import { boldMessage } from "./animation";
 
 export const snacks: string[] = ["Popcorn",
-                                 "Pretzels",
-                                 "Nuts",
-                                 "Chips",
-                                 "Beef Jerky",
+				 "Pretzels",
+				 "Nuts",
+				 "Chips",
+				 "Beef Jerky",
                                  "Cheez-Its"];
 
 export function printSnacks() {
