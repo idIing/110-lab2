@@ -1,3 +1,5 @@
+import { boldMessage } from "./animation";
+
 let musicList = ["'Uptown Funk' - Mark Ronson feat. Bruno Mars",
                  "'I Gotta Feeling' - Black Eyed Peas",
                  "'Dancing Queen' - ABBA",
@@ -6,7 +8,7 @@ let musicList = ["'Uptown Funk' - Mark Ronson feat. Bruno Mars",
                  "'I Wanna Dance with Somebody (Who Loves Me)' - Whitney Houston"];
 
 export function outputMusic() {
-    console.log("Music for the party:");
+    boldMessage("Music");
     for (const song of musicList) {
         console.log(song);
     }
