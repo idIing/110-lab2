@@ -7,7 +7,7 @@ let musicList = ["'Uptown Funk' - Mark Ronson feat. Bruno Mars",
 
 export function outputMusic() {
     console.log("Music for the party:");
-    for (song of musicList) {
+    for (const song of musicList) {
         console.log(song);
     }
 }
