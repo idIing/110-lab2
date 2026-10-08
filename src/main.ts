@@ -1,1 +1,3 @@
-console.log("Hello, World!");
+import { outputMusic } from "./music";
+
+outputMusic();

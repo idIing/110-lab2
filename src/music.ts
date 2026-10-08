@@ -11,5 +11,3 @@ export function outputMusic() {
         console.log(song);
     }
 }
-
-outputMusic();
