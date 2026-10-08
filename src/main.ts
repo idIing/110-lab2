@@ -1,1 +1,3 @@
-console.log("Hello, World!");
+import { printSnacks } from "./snacks";
+
+printSnacks();
