@@ -1,7 +1,7 @@
 import { boldMessage } from "./animation";
 
-const snacks: string[] = ["Popcorn",
-                          "Cheez-Its"];
+export const snacks: string[] = ["Popcorn",
+                                 "Cheez-Its"];
 
 export function printSnacks() {
   boldMessage("Snacks");
