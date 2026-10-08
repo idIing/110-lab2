@@ -3,7 +3,8 @@ import { boldMessage } from "./animation";
 const snacks: string[] = ["Popcorn", 
                           "Pretzels", 
                           "Nuts",
-                          "Chips"];
+                          "Chips",
+                          "Beef Jerky"];
 
 export function printSnacks() {
   boldMessage("Snacks");
