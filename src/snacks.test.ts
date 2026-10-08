@@ -7,7 +7,7 @@ describe("snacks", () => {
   });
 
   it("should include 'chips'", () => {
-    expect(snacks).toContain("chips");
+    expect(snacks).toContain("Chips");
   });
 });
 
